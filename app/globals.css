@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face { 
+    font-family: "Coneria"; 
+    src: url('/fonts/Demo_ConeriaScript.ttf'); 
+    font-weight: normal; 
+    font-style: normal; 
+  } 
+
+  @font-face { 
+    font-family: "Ananda"; 
+    src: url('/fonts/Ananda.ttf'); 
+    font-weight: normal; 
+    font-style: normal; 
+  } 
+
+
+  
