@@ -143,23 +143,34 @@ import malti from "@/assets/committee/organising/malti.png"
 export const cheifPatron = [
     
    
+    // {
+    //     type: 'CHIEF-PATRON',
+    //     members: [
+    //         {
+    //             name: 'Mr. Chandra Kant Birla',
+    //             designation: 'Chairman',
+    //             affiliation: { line1: 'C K Birla Group', line2: '' },
+    //             photo: ckbirla
+    //         },
+    //     ]
+    // },
+    // {
+    //     type: 'PATRON',
+    //     members: [
+    //         {
+    //             name: 'Prof. (Dr.) Ajay K. Sharma',
+    //             designation: 'PRINCIPAL CHAIR & Director',
+    //             affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
+    //             photo: director
+    //         },
+    //     ]
+    // },
     {
-        type: 'CHIEF-PATRON',
-        members: [
-            {
-                name: 'Mr. Chandra Kant Birla',
-                designation: 'Chairman',
-                affiliation: { line1: 'C K Birla Group', line2: '' },
-                photo: ckbirla
-            },
-        ]
-    },
-    {
-        type: 'PATRON',
+        type: 'GENERAL CHAIR',
         members: [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
-                designation: 'PRINCIPAL CHAIR & Director',
+                designation: 'Director',
                 affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
                 photo: director
             },
@@ -170,7 +181,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Prof. (Dr.) Binod Kumar Kanaujia',
-                designation: 'Director, NITJ',
+                designation: 'Director',
                 affiliation: { line1: 'National Institute of Technology Jalandhar', line2: '' },
                 photo: binod
             },
@@ -185,12 +196,12 @@ export const cheifPatron = [
                 affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
-            {
-                name: 'Prof. (Dr.) Manju Bala',
-                designation: 'Director',
-                affiliation: { line1: 'Khalsa College of Engineering and Technology, Amritsar', line2: '' },
-                photo: manjubala
-            }
+            // {
+            //     name: 'Prof. (Dr.) Manju Bala',
+            //     designation: 'Director',
+            //     affiliation: { line1: 'Khalsa College of Engineering and Technology, Amritsar', line2: '' },
+            //     photo: manjubala
+            // }
         ]
     },
     
@@ -198,126 +209,133 @@ export const cheifPatron = [
         type: "CONFERENCE CO-CHAIR(S)",
         members: [
             {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
-            },
-            {
-                name: 'Dr. Shelly Sachdeva',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: shelly
-            },
-            {
-                name: 'Dr. Rajneesh Rani',
+                name: 'Dr. Amit Mahajan',
                 designation: 'Associate Professor & Head',
-                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
-                photo: rajneesh
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
             }
+            // {
+            //     name: 'Dr. Anurag Singh',
+            //     designation: 'Associate Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: anurag
+            // },
+            // {
+            //     name: 'Dr. Shelly Sachdeva',
+            //     designation: 'Associate Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: shelly
+            // },
+            // {
+            //     name: 'Dr. Rajneesh Rani',
+            //     designation: 'Associate Professor & Head',
+            //     affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+            //     photo: rajneesh
+            // }
         ]
     },
-    {
-        type: "OVERSIGHT COMMITTEE",
-        members: [
-            {
-                name: 'Prof. Mahesh Bundele',
-                designation: 'Lead Member Coordinator',
-                affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
-                photo: bundele
-            },
-            {
-                name: 'Prof. Rajnish Sharma',
-                designation: '',
-                affiliation: { line1: 'Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
-                photo: rajnish
-            },
-            {
-                name: 'Prof. Chakradhar C Reddy',
-                designation: '',
-                affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
-                photo: chakradhar
-            },
-            {
-                name: 'Prof. Pradeep K Gupta',
-                designation: '',
-                affiliation: { line1: 'Executive Committee Co-opted Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
-                photo: pradeep
-            },
-            {
-                name: 'Prof. Ashu Verma',
-                designation: '',
-                affiliation: { line1: 'Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
-                photo: ashu
-            },
-        ]
-    },
+    // {
+    //     type: "OVERSIGHT COMMITTEE",
+    //     members: [
+    //         {
+    //             name: 'Prof. Mahesh Bundele',
+    //             designation: 'Lead Member Coordinator',
+    //             affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+    //             photo: bundele
+    //         },
+    //         {
+    //             name: 'Prof. Rajnish Sharma',
+    //             designation: '',
+    //             affiliation: { line1: 'Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+    //             photo: rajnish
+    //         },
+    //         {
+    //             name: 'Prof. Chakradhar C Reddy',
+    //             designation: '',
+    //             affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+    //             photo: chakradhar
+    //         },
+    //         {
+    //             name: 'Prof. Pradeep K Gupta',
+    //             designation: '',
+    //             affiliation: { line1: 'Executive Committee Co-opted Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+    //             photo: pradeep
+    //         },
+    //         {
+    //             name: 'Prof. Ashu Verma',
+    //             designation: '',
+    //             affiliation: { line1: 'Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+    //             photo: ashu
+    //         },
+    //     ]
+    // },
     {
         type: "STEERING COMMITTEE",
         members: [
             {
+                name: 'Prof. Harsh Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                photo: harsh
+            },
+            {
+                name: 'Prof. O P Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of ECE,DTU,Delhi', line2: '' },
+                photo: op_sharma
+            },
+            {
                 name: 'Prof. Satish Chand',
                 designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+                affiliation: { line1: 'School of Computer & System Sciences, JNU Delhi', line2: '' },
                 photo: satish
             },
             {
-                name: 'Prof. (Dr.) Arvinder Kaur',
-                designation: 'Professor',
-                affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
-                photo: arvinder_kaur
-            },
-            {
-                name: 'Prof. Leandro Melo de Sales',
-                designation: 'Professor',
-                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-                photo: leandro
-            },
-            {
-                name: 'Prof. Ahmed Lakhssassi',
-                designation: 'Professor',
-                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
-                photo: lakhssassi
-            },
-            {
-                name: 'Prof. Ramin Yahyapour',
-                designation: 'Professor',
-                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
-                photo: ramin
-            },
-            {
-                name: 'Prof. Ali Gharsallah',
-                designation: 'Professor',
-                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-                photo: ali
-            },
-            {
-                name: 'Prof. Ghanshyam Singh',
-                designation: 'Professor',
-                affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
-                photo: ghanshyam
-            },
+                name: 'Prof. Manju Bala',
+                designation: 'Director',
+                affiliation: { line1: 'Khalsa College of Engineering and Technology, Amritsar', line2: '' },
+                photo: manjubala
+            }
+            // {
+            //     name: 'Prof. (Dr.) Arvinder Kaur',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+            //     photo: arvinder_kaur
+            // },
+            // {
+            //     name: 'Prof. Leandro Melo de Sales',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+            //     photo: leandro
+            // },
+            // {
+            //     name: 'Prof. Ahmed Lakhssassi',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+            //     photo: lakhssassi
+            // },
+            // {
+            //     name: 'Prof. Ramin Yahyapour',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+            //     photo: ramin
+            // },
+            // {
+            //     name: 'Prof. Ali Gharsallah',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+            //     photo: ali
+            // },
+            // {
+            //     name: 'Prof. Ghanshyam Singh',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
+            //     photo: ghanshyam
+            // },
         ]
     },  
     {
         type: "SECRETARY(S)",
-        members: [
-            {
-                name: 'Dr. Karan Verma',
-                designation: 'HoD',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: karan
-            },
-            {
-                name: 'Dr. Samayveer Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
-                photo: samayveer
-            },
-        ]
-    },
-    {
-        type: "CONVENOR(S)",
         members: [
             {
                 name: 'Dr. Amandeep Kaur',
@@ -326,16 +344,16 @@ export const cheifPatron = [
                 photo: amandeep
             },
             {
-                name: 'Dr. Gautam Kumar',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: gautam
-            },
-            {
                 name: 'Dr. Gunjan',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: gunjan
+            },
+            {
+                name: 'Dr. Gautam Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: gautam
             },
             {
                 name: 'Dr. Sahil',
@@ -343,12 +361,53 @@ export const cheifPatron = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: sahil
             },
+        //     {
+        //         name: 'Dr. Karan Verma',
+        //         designation: 'HoD',
+        //         affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+        //         photo: karan
+        //     },
+        //     {
+        //         name: 'Dr. Samayveer Singh',
+        //         designation: 'Assistant Professor',
+        //         affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
+        //         photo: samayveer
+        //     },
+        ]
+    },
+    {
+        type: "CONVENOR(S)",
+        members: [
             {
-                name: 'Dr. G. S. Grewal',
-                designation: 'Dean (Training & Placement)',
-                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
-                photo: grewal
+                name: 'Dr. Shelly Sachdeva',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: shelly
             },
+            {
+                name: 'Dr. Samayveer Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
+                photo: samayveer
+            },
+            {
+                name: 'Dr. Rishav Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, IIT Patna', line2: '' },
+                photo: rishav
+            },
+            {
+                name: 'Dr. Chandra Prakash',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Surat', line2: '' },
+                photo: cprakash
+            },
+            // {
+            //     name: 'Dr. G. S. Grewal',
+            //     designation: 'Dean (Training & Placement)',
+            //     affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
+            //     photo: grewal
+            // },
         ]
     }
 ]
@@ -358,115 +417,133 @@ export const advisoryCommittee = [
         type: "INTERNATIONAL ADVISORY COMMITTEE",
         members: [
             {
-                name: 'Prof. Mukesh Singhal',
-                designation: 'Chancellor\'s Professor',
-                affiliation: { line1: 'University of California at Merced', line2: '' },
-                photo: mukesh
-            },
-            {
-                name: 'Prof. Hiroyuki Tsuda',
-                affiliation: { line1: 'Keio University, Japan', line2: '' },
-                photo: hiroyuki
-            },
-            {
-                name: 'Prof. Ali Gharsallah',
-                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-                photo: ali
-            },
-            {
-                name: 'Prof. Isao Echizen',
-                affiliation: { line1: 'Director, National Institute Of Informatics, Tokyo, Japan', line2: '' },
-                photo: isao
-            },
-            {
-                name: 'Prof. Yudong Zhang',
-                affiliation: { line1: 'University Of Leicester, UK', line2: '' },
-                photo: yudong
-            },
-            {
-                name: 'Prof. M. Yasin Akhtar Raja',
+                name: 'Dr. Bharat K. Bhargava',
                 designation: 'Professor',
-                affiliation: { line1: 'University of North Carolina at Charlotte, USA', line2: '' },
-                photo: yasin
-            },
-            {
-                name: 'Prof. Sergii Ubizskii',
-                affiliation: { line1: 'LPNU, Ukraine', line2: '' },
-                photo: Sergii
-            },
-            {
-                name: 'Prof. Yuri Shpolyanskiy',
-                affiliation: { line1: 'Univ. of Saint Petersburg, Russia', line2: '' },
-                photo: yuri
-            },
-            {
-                name: 'Prof. Konstantin Kozadeav',
-                affiliation: { line1: 'BSU, Minsk, Belarus', line2: '' },
-                photo: konstantin
-            },
-            {
-                name: 'Dr. Bharat Bhargava',
-                affiliation: { line1: 'Purdue University, USA', line2: '' },
+                affiliation: { line1: 'Dept. of Computer Science ,Purdue University, USA', line2: '' },
                 photo: Bhargava
             },
             {
-                name: 'Dr. Marcin Paprzycki',
-                designation:'Systems Research Institute',
-                affiliation: { line1: 'Polish Academy of Sciences, Warsaw, POLAND', line2: '' },
-                photo: marcin
-            },
-            {
-                name: 'Dr. Abhijit Sen',
-                designation: 'Computer Science and Information Technology',
-                affiliation: { line1: 'Kwantlen Polytechnic University, CANADA', line2: '' },
-                photo: abhijit
-            },
-            {
-                name: 'Dr. Subhas Chandra Mukhopadhyay',
-                affiliation: { line1: 'Macquarie University, NSW 2109 Australia', line2: '' },
-                photo: Subhas
-            },
-            {
-                name: 'Dr. Zoltán Vámossy',
-                affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
-                photo: zoltan
-            },
-            {
-                name: 'Prof. (Dr.) Habil',
-                designation:'Levente Adalbert Kovács',
-                affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
-                photo: habil
-            },
-            {
-                name: 'Prof. Leandro Melo de Sales',
-                // designation:'Levente Adalbert Kovács',
-                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-                photo: leandro
-            },
-            {
-                name: 'Prof. Ramin Yahyapour',
-                designation: 'Professor',
-                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
-                photo: ramin
-            },
-            {
-                name: 'Dr. Pavel Kromer',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'VSB-Technical University of Ostrava, Czech Republic', line2: '' },
-                photo: pavel
-            },
-            {
-                name: 'Dr. Pradeep Kumar',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'University of KwaZulu-Natal, Durban South Africa', line2: '' },
+                name: 'Prof. Vijay Kumar',
+                designation: 'School of Computing and Engineering',
+                affiliation: { line1: 'University of Missouri-Kansas City,USA', line2: '' },
                 photo: profile
             },
             {
-                name: 'Dr. Chaman Verma',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Eötvös Loránd University, Budapest, Hungary', line2: '' },
-                photo: chaman
+                name: 'Prof. Upendranath Sharma Chakravarthy',
+                designation: 'Professor,Computer Science',
+                affiliation: { line1: 'University of Texas Arlington', line2: '' },
+                photo: profile
             },
+            // {
+            //     name: 'Prof. Mukesh Singhal',
+            //     designation: 'Chancellor\'s Professor',
+            //     affiliation: { line1: 'University of California at Merced', line2: '' },
+            //     photo: mukesh
+            // },
+            // {
+            //     name: 'Prof. Hiroyuki Tsuda',
+            //     affiliation: { line1: 'Keio University, Japan', line2: '' },
+            //     photo: hiroyuki
+            // },
+            // {
+            //     name: 'Prof. Ali Gharsallah',
+            //     affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+            //     photo: ali
+            // },
+            // {
+            //     name: 'Prof. Isao Echizen',
+            //     affiliation: { line1: 'Director, National Institute Of Informatics, Tokyo, Japan', line2: '' },
+            //     photo: isao
+            // },
+            // {
+            //     name: 'Prof. Yudong Zhang',
+            //     affiliation: { line1: 'University Of Leicester, UK', line2: '' },
+            //     photo: yudong
+            // },
+            // {
+            //     name: 'Prof. M. Yasin Akhtar Raja',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'University of North Carolina at Charlotte, USA', line2: '' },
+            //     photo: yasin
+            // },
+            // {
+            //     name: 'Prof. Sergii Ubizskii',
+            //     affiliation: { line1: 'LPNU, Ukraine', line2: '' },
+            //     photo: Sergii
+            // },
+            // {
+            //     name: 'Prof. Yuri Shpolyanskiy',
+            //     affiliation: { line1: 'Univ. of Saint Petersburg, Russia', line2: '' },
+            //     photo: yuri
+            // },
+            // {
+            //     name: 'Prof. Konstantin Kozadeav',
+            //     affiliation: { line1: 'BSU, Minsk, Belarus', line2: '' },
+            //     photo: konstantin
+            // },
+            // {
+            //     name: 'Dr. Bharat Bhargava',
+            //     affiliation: { line1: 'Purdue University, USA', line2: '' },
+            //     photo: Bhargava
+            // },
+            // {
+            //     name: 'Dr. Marcin Paprzycki',
+            //     designation:'Systems Research Institute',
+            //     affiliation: { line1: 'Polish Academy of Sciences, Warsaw, POLAND', line2: '' },
+            //     photo: marcin
+            // },
+            // {
+            //     name: 'Dr. Abhijit Sen',
+            //     designation: 'Computer Science and Information Technology',
+            //     affiliation: { line1: 'Kwantlen Polytechnic University, CANADA', line2: '' },
+            //     photo: abhijit
+            // },
+            // {
+            //     name: 'Dr. Subhas Chandra Mukhopadhyay',
+            //     affiliation: { line1: 'Macquarie University, NSW 2109 Australia', line2: '' },
+            //     photo: Subhas
+            // },
+            // {
+            //     name: 'Dr. Zoltán Vámossy',
+            //     affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
+            //     photo: zoltan
+            // },
+            // {
+            //     name: 'Prof. (Dr.) Habil',
+            //     designation:'Levente Adalbert Kovács',
+            //     affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
+            //     photo: habil
+            // },
+            // {
+            //     name: 'Prof. Leandro Melo de Sales',
+            //     // designation:'Levente Adalbert Kovács',
+            //     affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+            //     photo: leandro
+            // },
+            // {
+            //     name: 'Prof. Ramin Yahyapour',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+            //     photo: ramin
+            // },
+            // {
+            //     name: 'Dr. Pavel Kromer',
+            //     designation: 'Associate Professor',
+            //     affiliation: { line1: 'VSB-Technical University of Ostrava, Czech Republic', line2: '' },
+            //     photo: pavel
+            // },
+            // {
+            //     name: 'Dr. Pradeep Kumar',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'University of KwaZulu-Natal, Durban South Africa', line2: '' },
+            //     photo: profile
+            // },
+            // {
+            //     name: 'Dr. Chaman Verma',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Eötvös Loránd University, Budapest, Hungary', line2: '' },
+            //     photo: chaman
+            // },
         ]
     },
     {
