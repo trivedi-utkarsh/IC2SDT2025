@@ -213,7 +213,7 @@ export const cheifPatron = [
                 designation: 'Associate Professor & Head',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
             // {
             //     name: 'Dr. Anurag Singh',
             //     designation: 'Associate Professor',
@@ -430,10 +430,130 @@ export const advisoryCommittee = [
             },
             {
                 name: 'Prof. Upendranath Sharma Chakravarthy',
-                designation: 'Professor,Computer Science',
-                affiliation: { line1: 'University of Texas Arlington', line2: '' },
+                designation: 'Professor',
+                affiliation: { line1: 'Computer Science,University of Texas Arlington', line2: '' },
                 photo: profile
             },
+            {
+                name: 'Prof. Xiao-Zhi Gao',
+                designation: 'Professor',
+                affiliation: { line1: 'University of Eastern Finland,Finland', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Sanjay Madria',
+                designation: 'Professor,',
+                affiliation: { line1: 'Computer Science Department,Missouri University of Science and Technology,USA', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Sandhya Samarasinghe',
+                designation: 'Professor',
+                affiliation: { line1: 'School of Landscape Architecture, Lincoln University, New Zealand', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Mohan Lal Kolhe',
+                designation: 'Professor',
+                affiliation: { line1: 'Faculty of Engineering and Science, University of Agder, Norway', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Leandro Melo de Sales',
+                designation: 'Professor',
+                affiliation: { line1: 'Institute of Computing (IC), Federal University of Alagoas (UFAL), Brazil', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Hiroyuki Tsuda',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of Electronics and Electrical Engineering, Keio University, Japan', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Konstantin Kozadeav',
+                designation: 'Professor',
+                affiliation: { line1: 'BSU, Minsk, Belarus', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Ali Gharsallah',
+                designation: 'Professor',
+                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Isao Echizen',
+                designation: 'Director',
+                affiliation: { line1: 'National Institute Of Informatics, Tokyo, Japan', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. M. Yasin Akhtar Raja',
+                designation: 'Professor',
+                affiliation: { line1: 'University of North Carolina at Charlotte, USA', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Ms. Vipin Luthra',
+                designation: 'Director, Digital and Technology',
+                affiliation: { line1: 'Diageo', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Hari Mohan Pandey',
+                designation: 'Associate Professor (Sr. Lecturer)',
+                affiliation: { line1: 'Data Science and Artificial Intelligence, Bournemouth University, United Kingdom', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Lalit Garg',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Faculty of Information & Communication Technology, University of Malta, Malta', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Deepak Kumar Jain',
+                designation: 'Associate Professor and Senior Research Scientist',
+                affiliation: { line1: 'Dalian University of Technology, Dalian, China', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Maanak Gupta',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of Computer Science, Tennessee Tech University', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Pavel Kromer',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'VSB-Technical University of Ostrava, Czech Republic', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Shashikant Ilager',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Faculty of Science (Informatics Institute), University of Amsterdam (UvA), Netherlands', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Pradeep Kumar',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'University of KwaZulu-Natal, Durban, South Africa', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Chaman Verma',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Eötvös Loránd University, Budapest, Hungary', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Zoltán Vámossy',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
+                photo: profile
+            }
             // {
             //     name: 'Prof. Mukesh Singhal',
             //     designation: 'Chancellor\'s Professor',
@@ -550,144 +670,291 @@ export const advisoryCommittee = [
         type: "NATIONAL ADVISORY COMMITTEE",
         members: [
             {
-                name: 'Prof. Ranjan Bose',
-                designation: 'Director',
-                affiliation: { line1: 'IIIT-Delhi', line2: '' },
-                photo: Ranjan
-            },  
+                name: 'Prof. Mayank Vatsa',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, IIT Jodhpur', line2: '' },
+                photo: profile
+            },
             {
                 name: 'Prof. Manoj Mishra',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT Roorkee', line2: '' },
                 photo: Manoj
             },
             {
-                name: 'T. V. Vijay Kumar',
+                name: 'Prof. Rajeev Sangal',
                 designation: 'Professor',
-                affiliation: { line1: 'JNU Delhi', line2: '' },
-                photo: Vijay
+                affiliation: { line1: 'IIIT Hyderabad', line2: '' },
+                photo: Rajeev
+            },
+            {
+                name: 'Prof. Nitin Auluck',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of CSE, IIT Ropar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Ratnaiti Bhattacharya',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT Guwahati, India', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. T. V. Vijay Kumar',
+                designation: 'Professor',
+                affiliation: { line1: 'School of Computer & Systems Sciences, JNU Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. B. B. Chaudhuri',
+                designation: 'Professor',
+                affiliation: { line1: 'Indian Statistical Institute Kolkata, INDIA', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. R. Balasubramanian',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT Roorkee', line2: '' },
+                photo: profile
             },
             {
                 name: 'Prof. B. K. Singh',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: Singh
+                affiliation: { line1: 'NSUT Delhi', line2: '' },
+                photo: profile
             },
             {
                 name: 'Prof. Pramod Kumar Jain',
                 designation: 'Director',
                 affiliation: { line1: 'IIT(BHU) Varanasi', line2: '' },
-                photo: Pramod
+                photo: profile
             },
             {
-                name: 'Prof. Kolin Poul',
+                name: 'Prof. Umesh Ghanekar',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Delhi', line2: '' },
-                photo: Kolin
-            },
-            {
-                name: 'Prof. Balaraman Ravindran',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Madras', line2: '' },
-                photo: Balaraman
+                affiliation: { line1: 'Dept of ECE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
                 name: 'Prof. Somenath Biswas',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Kanpur', line2: '' },
-                photo: Somenath
+                affiliation: { line1: 'Dept of CSE, IIT Kanpur', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Rajeev Sangal',
+                name: 'Prof. Rahul Katarya',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Hyderabad', line2: '' },
-                photo: Rajeev
+                affiliation: { line1: 'Dept of CSE, DTU, Delhi', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Lalit Kumar Awasthi',
-                designation: 'Director',
-                affiliation: { line1: 'NIT, Uttarakhand', line2: '' },
-                photo: Lalit
-            },
-            {
-                name: 'Prof. B. B. Chaudhuri',
+                name: 'Prof. Dinesh K. Vishwakarma',
                 designation: 'Professor',
-                affiliation: { line1: 'Indian Statistical Institute Kolkata', line2: '' },
-                photo: Chaudhuri
+                affiliation: { line1: 'Dept of IT, DTU, Delhi', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. R. Balasubramanian',
+                name: 'Prof. Jitender Kumar Chhabra',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: Balasubramanian
+                affiliation: { line1: 'Dept of CE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Aparajita Ojha',
+                name: 'Prof. Sathans',
                 designation: 'Professor',
-                affiliation: { line1: 'IIITDM, Jabalpur', line2: '' },
-                photo: Aparajita
+                affiliation: { line1: 'Dept of EE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Ratnaiti Bhattacharya',
+                name: 'Prof. Shailender Kumar',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Guwahati', line2: '' },
-                photo: Ratnaiti
+                affiliation: { line1: 'Dept of CSE, DTU, Delhi', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Devanand',
+                name: 'Prof. Arun Sharma',
                 designation: 'Professor',
-                affiliation: { line1: 'Central University of Jammu', line2: '' },
-                photo: Devanand
+                affiliation: { line1: 'Dept of IT, IGDTUW, Delhi', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. B S Kaith',
+                name: 'Prof. Sandeep Kumar Garg',
                 designation: 'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Kaith
+                affiliation: { line1: 'Dept of CSE, IIT Roorkee', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Rahul Kataria',
+                name: 'Prof. Sushil Chauhan',
                 designation: 'Professor',
-                affiliation: { line1: 'Delhi Technological University', line2: '' },
-                photo: rahul_kataria
+                affiliation: { line1: 'Dept of EE, NIT Hamirpur', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. O P Verma',
+                name: 'Prof. Brahmjit Singh',
                 designation: 'Professor',
-                affiliation: { line1: 'Delhi Technological University', line2: '' },
-                photo: op_sharma
+                affiliation: { line1: 'Dept of ECE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Shailender Kumar',
-                designation: 'Professor',
-                affiliation: { line1: 'DTU New Delhi', line2: '' },
-                photo: Shailender
+                name: 'Dr. Sandeep Kumar Sood',
+                designation: 'Associate Professor and Head',
+                affiliation: { line1: 'Dept of CA, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Angshul Majumda',
-                designation: 'Professor (CSE, ECE)',
-                affiliation: { line1: 'IIIT Delhi', line2: '' },
-                photo: Angshul
-            },
-            {
-                name: 'Ms. Daljeet Kaur',
-                designation: 'Principal Scientific Officer',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: daljeet_kaur
+                name: 'Dr. Ankur Bansal',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of EE, IIT Jammu', line2: '' },
+                photo: profile
             },
             {
                 name: 'Dr. Maheshkumar H. Kolekar',
                 designation: 'Associate Professor',
-                affiliation: { line1: 'IIT, Patna', line2: '' },
-                photo: Maheshkumar
-            },
-            {
-                name: 'Dr. Badri N. Subudhi',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'IIT jammu', line2: '' },
-                photo: Badri
+                affiliation: { line1: 'IIT Patna, India', line2: '' },
+                photo: profile
             }
         ]
+        
+        // members: [
+        //     {
+        //         name: 'Prof. Ranjan Bose',
+        //         designation: 'Director',
+        //         affiliation: { line1: 'IIIT-Delhi', line2: '' },
+        //         photo: Ranjan
+        //     },  
+        //     {
+        //         name: 'Prof. Manoj Mishra',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Roorkee', line2: '' },
+        //         photo: Manoj
+        //     },
+        //     {
+        //         name: 'T. V. Vijay Kumar',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'JNU Delhi', line2: '' },
+        //         photo: Vijay
+        //     },
+        //     {
+        //         name: 'Prof. B. K. Singh',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Roorkee', line2: '' },
+        //         photo: Singh
+        //     },
+        //     {
+        //         name: 'Prof. Pramod Kumar Jain',
+        //         designation: 'Director',
+        //         affiliation: { line1: 'IIT(BHU) Varanasi', line2: '' },
+        //         photo: Pramod
+        //     },
+        //     {
+        //         name: 'Prof. Kolin Poul',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Delhi', line2: '' },
+        //         photo: Kolin
+        //     },
+        //     {
+        //         name: 'Prof. Balaraman Ravindran',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Madras', line2: '' },
+        //         photo: Balaraman
+        //     },
+        //     {
+        //         name: 'Prof. Somenath Biswas',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Kanpur', line2: '' },
+        //         photo: Somenath
+        //     },
+        //     {
+        //         name: 'Prof. Rajeev Sangal',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Hyderabad', line2: '' },
+        //         photo: Rajeev
+        //     },
+        //     {
+        //         name: 'Prof. Lalit Kumar Awasthi',
+        //         designation: 'Director',
+        //         affiliation: { line1: 'NIT, Uttarakhand', line2: '' },
+        //         photo: Lalit
+        //     },
+        //     {
+        //         name: 'Prof. B. B. Chaudhuri',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Indian Statistical Institute Kolkata', line2: '' },
+        //         photo: Chaudhuri
+        //     },
+        //     {
+        //         name: 'Prof. R. Balasubramanian',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Roorkee', line2: '' },
+        //         photo: Balasubramanian
+        //     },
+        //     {
+        //         name: 'Prof. Aparajita Ojha',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIITDM, Jabalpur', line2: '' },
+        //         photo: Aparajita
+        //     },
+        //     {
+        //         name: 'Prof. Ratnaiti Bhattacharya',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT, Guwahati', line2: '' },
+        //         photo: Ratnaiti
+        //     },
+        //     {
+        //         name: 'Prof. Devanand',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Central University of Jammu', line2: '' },
+        //         photo: Devanand
+        //     },
+        //     {
+        //         name: 'Prof. B S Kaith',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Kaith
+        //     },
+        //     {
+        //         name: 'Prof. Rahul Kataria',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Delhi Technological University', line2: '' },
+        //         photo: rahul_kataria
+        //     },
+        //     {
+        //         name: 'Prof. O P Verma',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Delhi Technological University', line2: '' },
+        //         photo: op_sharma
+        //     },
+        //     {
+        //         name: 'Dr. Shailender Kumar',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'DTU New Delhi', line2: '' },
+        //         photo: Shailender
+        //     },
+        //     {
+        //         name: 'Prof. Angshul Majumda',
+        //         designation: 'Professor (CSE, ECE)',
+        //         affiliation: { line1: 'IIIT Delhi', line2: '' },
+        //         photo: Angshul
+        //     },
+        //     {
+        //         name: 'Ms. Daljeet Kaur',
+        //         designation: 'Principal Scientific Officer',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: daljeet_kaur
+        //     },
+        //     {
+        //         name: 'Dr. Maheshkumar H. Kolekar',
+        //         designation: 'Associate Professor',
+        //         affiliation: { line1: 'IIT, Patna', line2: '' },
+        //         photo: Maheshkumar
+        //     },
+        //     {
+        //         name: 'Dr. Badri N. Subudhi',
+        //         designation: 'Assistant Professor',
+        //         affiliation: { line1: 'IIT jammu', line2: '' },
+        //         photo: Badri
+        //     }
+        // ]
     }
 ];
 
@@ -763,9 +1030,9 @@ export const technicalCommitee = [
         type: "CHAIR",
         members : [
             {
-                name: 'Prof. Harsh K Verma',
+                name: 'Prof. Dilbagh Singh',
                 designation: 'Professor',
-                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                affiliation: { line1: 'Department of ICE, NIT Jalandhar', line2: '' },
                 photo: harsh
             },
         ]
@@ -775,275 +1042,523 @@ export const technicalCommitee = [
         type: "CO-CHAIR",
         members : [
             {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
+                name: 'Prof. Seema Bawa',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, TIET patiala', line2: '' },
+                photo: profile
             },
         ]
     },
     {   
         type : 'COMMITTEE MEMBERS',
-        members :  [
-            // {
-            //     name: 'Prof. Yogesh Singh',
-            //     designation: 'Vice Chancellor',
-            //     affiliation: { line1: 'University of Delhi', line2: '' },
-            //     photo: YSingh
-            // },
+        members: [
             {
-                name: 'Prof. Ahmed Lakhssassi',
+                name: 'Prof. Arun Khosla',
                 designation: 'Professor',
-                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
-                photo: lakhssassi
+                affiliation: { line1: 'Dept of ECE, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Ali Gharsallah',
+                name: 'Prof. Rajesh Kumar Aggarwal',
                 designation: 'Professor',
-                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-                photo: ali
+                affiliation: { line1: 'Dept of CE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Leandro Melo de Sales',
+                name: 'Prof. Rajeevan Chandel',
                 designation: 'Professor',
-                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-                photo: leandro
-            },
-            {
-                name: 'Prof. Ramin Yahyapour',
-                designation: 'Professor',
-                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
-                photo: ramin
-            },
-            {
-                name: 'Prof. Manoj Kumar',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
-                photo: manojkumar
-            },
-            {
-                name: 'Prof. Jyoteesh Malhotra',
-                designation:'Professor & Dean Student Welfare',
-                affiliation: { line1: 'NIT Delhi', line2: '' },
-                photo: jyoteesh
-            },
-            {
-                name: 'Prof. Amrit Lal Sangal',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Sangal
-            },
-            {
-                name: 'Prof. Bijendra Kumar',
-                designation: 'Professor',
-                affiliation: { line1: 'NSUT Delhi', line2: '' },
-                photo: Bijendra
-            },
-            {
-                name: 'Prof. Sunil Vadera',
-                designation: 'Professor',
-                affiliation: { line1: 'University of Salford, Manchester, UK', line2: '' },
-                photo: Sunil
-            },
-            {
-                name: 'Dr. Monica Sikka',
-                designation:'Professor & Head',
-                affiliation: { line1: 'Dept. of Textile Technology, NIT Jalandhar', line2: '' },
-                photo: Monica
-            },
-            {
-                name: 'Dr. S K Pahuja',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Pahuja
-            },
-            {
-                name: 'Dr. Mamta Khosla',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Mamta
-            },
-            {
-                name: 'Dr. Rohit Mehra',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Rohit
-            },
-            {
-                name: 'Prof. Seeja. K. R.',
-                designation: 'Professor',
-                affiliation: { line1: 'IGDTUW Delhi', line2: '' },
-                photo: Seeja
-            },
-            {
-                name: 'Prof. Ela Kumar',
-                designation: 'Professor',
-                affiliation: { line1: 'IGDTUW Delhi', line2: '' },
-                photo: ela
-            },
-            {
-                name: 'Dr. Preetam Kumar',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT Patna, India', line2: '' },
-                photo: Preetam
-            },
-            {
-                name: 'Prof. Rama Krishna Challa',
-                designation:'Professor',
-                affiliation: { line1: 'NITTTR Chandigarh', line2: '' },
-                photo: Krishna
+                affiliation: { line1: 'Dept of ECE, NIT Hamirpur', line2: '' },
+                photo: profile
             },
             {
                 name: 'Prof. Savita Gupta',
-                designation:'Professor',
+                designation: 'Professor',
                 affiliation: { line1: 'Panjab University, Chandigarh', line2: '' },
-                photo: Savita
+                photo: profile
             },
             {
-                name: 'Prof. Aditya Trivedi',
-                designation:'Professor',
-                affiliation: { line1: 'IITM Gwalior', line2: '' },
-                photo: Trivedi
+                name: 'Prof. Baljinder Saini',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of EEE, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. Y. N. Singh',
-                designation:'Professor',
-                affiliation: { line1: 'IIT Kanpur', line2: '' },
-                photo: YNSingh
+                name: 'Prof. R. K. Sharma',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of ECE, NIT Kurukshetra', line2: '' },
+                photo: profile
             },
             {
-                name: 'Prof. (Dr.) Renu Dhir',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: renu_dhir
+                name: 'Prof. Maninder Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, TIET Patiala', line2: '' },
+                photo: profile
             },
             {
-                name: 'Mr. Abhijan Bhattacharyya',
-                designation: 'Sr. Scientist',
-                affiliation: { line1: 'TCS Research', line2: '' },
-                photo: abhijan
+                name: 'Prof. Rohit Mehra',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of Physics, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr.Partha Pritam Roy',
+                name: 'Prof. Arvinder Kaur',
+                designation: 'Professor',
+                affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. A L Sangal',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Awadhesh Kumar Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CE, NIT Kurukshetra', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. M. P. Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Patna', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Renu Dhir',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Mayank Dave',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of CE, NIT Kurukshetra', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Sharvan Kumar Pahuja',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept of ICE, NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Geeta Pratap',
                 designation: 'Associate Professor',
-                affiliation: { line1: 'CSE, IIT Roorkee', line2: '' },
-                photo: Partha
+                affiliation: { line1: 'Dept of Mathematics and Computing, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Subrahmanyam Murala',
+                name: 'Dr. Rajneesh Rani',
                 designation: 'Associate Professor',
-                affiliation: { line1: 'IIT Ropar', line2: '' },
-                photo: Subrahmanyam
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Harish Kumar',
+                name: 'Dr. Uday Pratap Roy',
                 designation: 'Associate Professor',
-                affiliation: { line1: 'NIT Delhi', line2: '' },
-                photo: harish_kumar
-            },
-            {
-                name: 'Dr. T P Sharma',
-                designation:'Associate Professor',
-                affiliation: { line1: 'NIT Hamirpur', line2: '' },
-                photo: Sharma
-            },
-            {
-                name: 'Dr. Kamlesh Dutta',
-                designation:'Associate Professor',
-                affiliation: { line1: 'NIT Hamirpur', line2: '' },
-                photo: Kamlesh
-            },
-            {
-                name: 'Dr. Roop Pahuja',
-                designation:'Associate Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Roop
-            },
-            {
-                name: 'Dr. Nitai Basak',
-                designation:'Associate Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Nitai
-            },
-            {
-                name: 'Dr. Deepak Kumar Sharma',
-                designation:'Associate Professor',
-                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: Deepak
-            },
-            {
-                name: 'Dr. Nonita Sharma',
-                designation:'Associate Professor',
-                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: Nonita
-            },
-            {
-                name: 'Dr. Tirupathiraju Kanumuri',
-                designation:'Associate Professor',
-                affiliation: { line1: 'Dept. of Electrical Engineering, NIT Delhi', line2: '' },
-                photo: raju
-            },
-            {
-                name: 'Dr. Obbu Chandra Sekhar',
-                designation:'Associate Professor',
-                affiliation: { line1: 'Dept. of Electrical Engineering, NIT Delhi', line2: '' },
-                photo: obbu
+                affiliation: { line1: 'Dept of CSE, NIT Patna', line2: '' },
+                photo: profile
             },
             {
                 name: 'Dr. Rikmantra Basu',
-                designation:'Associate Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'ECE Dept., NIT Delhi', line2: '' },
                 photo: basu
             },
             {
-                name: 'Dr. Manisha Bharti',
-                designation:'Associate Professor',
-                affiliation: { line1: 'ECE Dept., NIT Delhi', line2: '' },
-                photo: manisha
+                name: 'Dr. Deepak Ranjan Nayak',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jaipur', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Harleen Dahiya',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of Physics, NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Nonita Sharma',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'IGDTUW, New Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Neetu Sood',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of ECE, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
                 name: 'Dr. Gyanendra Sheoran',
-                designation:'Associate Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
                 photo: gyanendra
             },
             {
-                name: 'Dr. Vinay Shankar Pandey',
-                designation:'Associate Professor',
-                affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
-                photo: pandey
-            },
-            {
-                name: 'Dr. Prashant Kumar',
-                designation:'Associate Professor',
-                affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
-                photo: prashant
-            },
-            {
-                name: 'Dr. Ripin Kohli',
-                designation:'Associate Professor',
-                affiliation: { line1: 'Khalsa College of Engineering and Technology, Amrtisar', line2: '' },
-                photo: ripin
-            },
-            {
-                name: 'Dr. C. Periasamy',
+                name: 'Dr. Balu Parne',
                 designation: 'Assistant Professor',
-                affiliation: { line1: 'MNIT Jaipur, India', line2: '' },
-                photo: Periasamy
+                affiliation: { line1: 'Dept of CSE, NIT Surat', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Urvashi',
-                designation:'Assistant Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: urvashi
+                name: 'Dr. Damanjit Kaur',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of Mathematics & Computing, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Aruna Malik',
-                designation:'Assistant Professor',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: aruna_malik
+                name: 'Dr. Abhinav Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Allahabad', line2: '' },
+                photo: profile
             },
+            {
+                name: 'Dr. Deepti Kakkar',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of ECE, NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Manisha Bharti',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: manisha
+            },
+            {
+                name: 'Dr. Nishant Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of EE, IIT Jodhpur', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Banhi Sanyal',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Kurukshetra', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Parshant Kumar',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Sambit Bakshi',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Rourkela', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Shah Fahad',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of SCSE, BIT Mesra Ranchi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Vinay Shankar Pandey',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Shyam Prakash Choudhary',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Andhra Pradesh', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Rajeev Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, DTU, Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'School of Computing & Electrical Engineering, IIT Mandi', line2: '' },
+                photo: indu
+            },
+            {
+                name: 'Dr. D. Vaithiyanathan',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Amandeep Kaur',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of Management Studies, ABV-IIITM Gwalior', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Mrityunjay Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'School of Computing, IIIT Una', line2: '' },
+                photo: profile
+            }
         ]
+        // members :  [
+        //     // {
+        //     //     name: 'Prof. Yogesh Singh',
+        //     //     designation: 'Vice Chancellor',
+        //     //     affiliation: { line1: 'University of Delhi', line2: '' },
+        //     //     photo: YSingh
+        //     // },
+        //     {
+        //         name: 'Prof. Ahmed Lakhssassi',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+        //         photo: lakhssassi
+        //     },
+        //     {
+        //         name: 'Prof. Ali Gharsallah',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+        //         photo: ali
+        //     },
+        //     {
+        //         name: 'Prof. Leandro Melo de Sales',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+        //         photo: leandro
+        //     },
+        //     {
+        //         name: 'Prof. Ramin Yahyapour',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+        //         photo: ramin
+        //     },
+        //     {
+        //         name: 'Prof. Manoj Kumar',
+        //         designation: 'Professor & Head',
+        //         affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+        //         photo: manojkumar
+        //     },
+        //     {
+        //         name: 'Prof. Jyoteesh Malhotra',
+        //         designation:'Professor & Dean Student Welfare',
+        //         affiliation: { line1: 'NIT Delhi', line2: '' },
+        //         photo: jyoteesh
+        //     },
+        //     {
+        //         name: 'Prof. Amrit Lal Sangal',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Sangal
+        //     },
+        //     {
+        //         name: 'Prof. Bijendra Kumar',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'NSUT Delhi', line2: '' },
+        //         photo: Bijendra
+        //     },
+        //     {
+        //         name: 'Prof. Sunil Vadera',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'University of Salford, Manchester, UK', line2: '' },
+        //         photo: Sunil
+        //     },
+        //     {
+        //         name: 'Dr. Monica Sikka',
+        //         designation:'Professor & Head',
+        //         affiliation: { line1: 'Dept. of Textile Technology, NIT Jalandhar', line2: '' },
+        //         photo: Monica
+        //     },
+        //     {
+        //         name: 'Dr. S K Pahuja',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Pahuja
+        //     },
+        //     {
+        //         name: 'Dr. Mamta Khosla',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Mamta
+        //     },
+        //     {
+        //         name: 'Dr. Rohit Mehra',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Rohit
+        //     },
+        //     {
+        //         name: 'Prof. Seeja. K. R.',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IGDTUW Delhi', line2: '' },
+        //         photo: Seeja
+        //     },
+        //     {
+        //         name: 'Prof. Ela Kumar',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IGDTUW Delhi', line2: '' },
+        //         photo: ela
+        //     },
+        //     {
+        //         name: 'Dr. Preetam Kumar',
+        //         designation: 'Professor',
+        //         affiliation: { line1: 'IIT Patna, India', line2: '' },
+        //         photo: Preetam
+        //     },
+        //     {
+        //         name: 'Prof. Rama Krishna Challa',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NITTTR Chandigarh', line2: '' },
+        //         photo: Krishna
+        //     },
+        //     {
+        //         name: 'Prof. Savita Gupta',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'Panjab University, Chandigarh', line2: '' },
+        //         photo: Savita
+        //     },
+        //     {
+        //         name: 'Prof. Aditya Trivedi',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'IITM Gwalior', line2: '' },
+        //         photo: Trivedi
+        //     },
+        //     {
+        //         name: 'Prof. Y. N. Singh',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'IIT Kanpur', line2: '' },
+        //         photo: YNSingh
+        //     },
+        //     {
+        //         name: 'Prof. (Dr.) Renu Dhir',
+        //         designation:'Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: renu_dhir
+        //     },
+        //     {
+        //         name: 'Mr. Abhijan Bhattacharyya',
+        //         designation: 'Sr. Scientist',
+        //         affiliation: { line1: 'TCS Research', line2: '' },
+        //         photo: abhijan
+        //     },
+        //     {
+        //         name: 'Dr.Partha Pritam Roy',
+        //         designation: 'Associate Professor',
+        //         affiliation: { line1: 'CSE, IIT Roorkee', line2: '' },
+        //         photo: Partha
+        //     },
+        //     {
+        //         name: 'Dr. Subrahmanyam Murala',
+        //         designation: 'Associate Professor',
+        //         affiliation: { line1: 'IIT Ropar', line2: '' },
+        //         photo: Subrahmanyam
+        //     },
+        //     {
+        //         name: 'Dr. Harish Kumar',
+        //         designation: 'Associate Professor',
+        //         affiliation: { line1: 'NIT Delhi', line2: '' },
+        //         photo: harish_kumar
+        //     },
+        //     {
+        //         name: 'Dr. T P Sharma',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'NIT Hamirpur', line2: '' },
+        //         photo: Sharma
+        //     },
+        //     {
+        //         name: 'Dr. Kamlesh Dutta',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'NIT Hamirpur', line2: '' },
+        //         photo: Kamlesh
+        //     },
+        //     {
+        //         name: 'Dr. Roop Pahuja',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Roop
+        //     },
+        //     {
+        //         name: 'Dr. Nitai Basak',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: Nitai
+        //     },
+        //     {
+        //         name: 'Dr. Deepak Kumar Sharma',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+        //         photo: Deepak
+        //     },
+        //     {
+        //         name: 'Dr. Nonita Sharma',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+        //         photo: Nonita
+        //     },
+        //     {
+        //         name: 'Dr. Tirupathiraju Kanumuri',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Dept. of Electrical Engineering, NIT Delhi', line2: '' },
+        //         photo: raju
+        //     },
+        //     {
+        //         name: 'Dr. Obbu Chandra Sekhar',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Dept. of Electrical Engineering, NIT Delhi', line2: '' },
+        //         photo: obbu
+        //     },
+        //     {
+        //         name: 'Dr. Rikmantra Basu',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'ECE Dept., NIT Delhi', line2: '' },
+        //         photo: basu
+        //     },
+        //     {
+        //         name: 'Dr. Manisha Bharti',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'ECE Dept., NIT Delhi', line2: '' },
+        //         photo: manisha
+        //     },
+        //     {
+        //         name: 'Dr. Gyanendra Sheoran',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
+        //         photo: gyanendra
+        //     },
+        //     {
+        //         name: 'Dr. Vinay Shankar Pandey',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
+        //         photo: pandey
+        //     },
+        //     {
+        //         name: 'Dr. Prashant Kumar',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Department of Applied Sciences, NIT Delhi', line2: '' },
+        //         photo: prashant
+        //     },
+        //     {
+        //         name: 'Dr. Ripin Kohli',
+        //         designation:'Associate Professor',
+        //         affiliation: { line1: 'Khalsa College of Engineering and Technology, Amrtisar', line2: '' },
+        //         photo: ripin
+        //     },
+        //     {
+        //         name: 'Dr. C. Periasamy',
+        //         designation: 'Assistant Professor',
+        //         affiliation: { line1: 'MNIT Jaipur, India', line2: '' },
+        //         photo: Periasamy
+        //     },
+        //     {
+        //         name: 'Dr. Urvashi',
+        //         designation:'Assistant Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: urvashi
+        //     },
+        //     {
+        //         name: 'Dr. Aruna Malik',
+        //         designation:'Assistant Professor',
+        //         affiliation: { line1: 'NIT Jalandhar', line2: '' },
+        //         photo: aruna_malik
+        //     },
+        // ]
     }
 ]
 
@@ -1053,9 +1568,15 @@ export const organizingCommittee = [
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Dean Academics',
-                affiliation: { line1: 'NIT Delhi', line2: '' },
+                designation: 'Professor & Dean (Academics)',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
                 photo: geeta
+            },
+            {
+                name: 'Dr. Amit Mahajan',
+                designation: 'Associate Professor & Head',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
             },
             {
                 name: 'Dr. Shelly Sachdeva',
@@ -1130,16 +1651,28 @@ export const organizingCommittee = [
                 photo: jaspinder
             },
             {
-                name: 'Dr. Maalti Puri',
-                designation: 'HoD, Dept. of ECE',
-                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
-                photo: malti
+                name: 'Dr. Parnika Bhatt',
+                designation: 'Postdoctoral Fellow',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Atul Agnihotri',
-                designation: 'Dean Research and Consultancy',
-                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
-                photo: atul
+                name: 'Dr. Vishal Gupta',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Arjun Singh Rawat',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Preeti Mehta',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
+                photo: profile
             },
         ]
     }
@@ -1147,7 +1680,7 @@ export const organizingCommittee = [
 
 export const financeCommittee = [
     {
-        // type: 'COORDINATORS',
+        type: 'CHAIR',
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
@@ -1155,18 +1688,29 @@ export const financeCommittee = [
                 affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
-            {
-                name: 'Dr. Karan Verma',
-                designation: 'HoD',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: karan
-            },
+        ]
+    },
+    {
+        type: 'CO-CHAIR',
+        members : [
             {
                 name: 'Dr. Gautam Kumar',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: gautam
-            }
+            },
+            {
+                name: 'Dr. Gunjan',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: gunjan
+            },
+            {
+                name: 'Dr. Arjun Singh Rawat',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE,NIT Delhi', line2: '' },
+                photo: profile
+            },
         ]
     }
 ]
