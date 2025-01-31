@@ -1,3 +1,4 @@
+import profile from '@/public/profile.png'
 import abdulAnsari from '@/public/keynote/abdulAnsari.jpg'
 import selvaKumar from '@/public/keynote/selvaKumar.jpg'
 import sharmaChakraborty from '@/public/keynote/sharmaChakraborty.jpg'
@@ -23,30 +24,48 @@ export const keynote = {
       //   image: Binod,
       // },
 
-    Selvakumar : {
-        title: "Prof. S. Selvakumar",
-        designation: "Professor",
-        description: "National Institute of Technology Tiruchirappalli",
-        image: selvaKumar,
+      YogeshSingh : {
+        title: "Prof. Yogesh Singh",
+        designation: "Vice-Chancellor",
+        description: "Delhi University, India",
+        image: profile
       },
-      Agarwal : {
-        title: "Prof. Manindra Agarwal",
+      Xiao : {
+        title: "Prof. Xiao-Zhi Gao",
         designation: "Professor",
-        description: "Indian Institute of Technology, Kanpur, India",
-        image: manindraAgarwal,
+        description: "University of Eastern Finland, Finland",
+        image: profile,
       },
+      Prateek : {
+        title: "Prof. Prateek Sharma",
+        designation: "Vice-Chancellor",
+        description: "Delhi Technological University, India",
+        image: profile,
+      },
+    // Selvakumar : {
+    //     title: "Prof. S. Selvakumar",
+    //     designation: "Professor",
+    //     description: "National Institute of Technology Tiruchirappalli",
+    //     image: selvaKumar,
+    //   },
+    //   Agarwal : {
+    //     title: "Prof. Manindra Agarwal",
+    //     designation: "Professor",
+    //     description: "Indian Institute of Technology, Kanpur, India",
+    //     image: manindraAgarwal,
+    //   },
       Chakraborty : {
-        title: "Prof Sharma Chakraborty",
+        title: "Prof S. Chakraborty",
         designation: "Professor",
         description: "University of Texas, USA",
         image: sharmaChakraborty,
       },
-      uddin : {
-        title: "Prof. Moin Uddin",
-        designation: "Professor",
-        description: "Apeejay Stya University, Gurugram",
-        image: moinUddin,
-      },
+      // uddin : {
+      //   title: "Prof. Moin Uddin",
+      //   designation: "Professor",
+      //   description: "Apeejay Stya University, Gurugram",
+      //   image: moinUddin,
+      // },
       mishra:{
         title: "Prof. Manoj Mishra",
         designation: "Professor",
