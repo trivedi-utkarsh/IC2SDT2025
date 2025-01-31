@@ -1,4 +1,4 @@
-import {advisoryCommittee, topLevel, cheifPatron, financeCommittee, hospitalityCommittee, organizingCommittee, publicationCommittee, publicityCommittee, steeringCommitee, technicalCommitee, transportationCommittee} from '@/components/committeesPage/data'
+import {advisoryCommittee, topLevel, cheifPatron, financeCommittee, hospitalityCommittee, organizingCommittee, publicationCommittee, publicityCommittee, steeringCommitee, technicalCommitee, transportationCommittee, webDevelopmentContentCreationCommittee} from '@/components/committeesPage/data'
 import Committee from "@/components/committeesPage/Committee";
 export default function Committees() {
     return (
@@ -12,6 +12,7 @@ export default function Committees() {
             <Committee data = {publicationCommittee} name = {"PUBLICATION COMMITTEE"} />
             <Committee data = {publicityCommittee} name = {"PUBLICITY COMMITTEE"} />
             <Committee data = {hospitalityCommittee} name = {"HOSPITALITY AND ACCOMMODATION COMMITTEE"} />
+            <Committee data = {webDevelopmentContentCreationCommittee} name = {"WEB DEVELOPMENT & CONTENT CREATION COMMITTEE"} />
                </>
     )
 }

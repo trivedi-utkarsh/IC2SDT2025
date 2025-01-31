@@ -58,7 +58,7 @@ import Ranjan from "@/assets/committee/national/Prof. Ranjan Bose.jpg"
 import Ratnaiti from "@/assets/committee/national/Prof. Ratnaiti Bhattacharya.jpg"
 import Somenath from "@/assets/committee/national/Prof. Somenath Biswas.jpg"
 import Vijay from "@/assets/committee/national/T. V. Vijay Kumar.jpg"
-import { Chathura, Shalimar } from "@next/font/google"
+import { Chathura, Shalimar } from "next/font/google"
 
 import Kamlesh from "@/assets/committee/technical/Dr Kamlesh Dutta.jpg"
 import Monica from "@/assets/committee/technical/Dr Monica Sikka.jpg"
@@ -188,7 +188,7 @@ export const cheifPatron = [
         ]
     },
     {
-        type: 'CONFERENCE CHAIR(S)',
+        type: 'CONFERENCE CHAIR',
         members: [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
@@ -1717,13 +1717,31 @@ export const financeCommittee = [
 
 export const publicationCommittee = [
     {
-        // type: 'CHAIRPERSON',
+        type: 'CHAIR',
         members : [
             {
-                name: 'Dr. Nonita Sharma',
-                designation:'Associate Professor',
-                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: Nonita
+                name: 'Dr. Amandeep Kaur',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: amandeep
+            }
+        ]
+    },
+    {
+
+        type: 'CO-CHAIR(S)',
+        members : [
+            // {
+            //     name: 'Dr. Nonita Sharma',
+            //     designation:'Associate Professor',
+            //     affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+            //     photo: Nonita
+            // },
+            {
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: sahil
             },
             {
                 name: 'Dr. Shashvat Sharma',
@@ -1732,56 +1750,83 @@ export const publicationCommittee = [
                 photo: Shashvat
             },
             {
-                name: 'Dr. Amandeep Kaur',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: amandeep
+                name: 'Dr. Mohit Kumar',
+                designation:'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Divya Punia',
-                designation: 'Postdoctoral Researcher',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: divya
+                name: 'Dr.Ankur Kumar',
+                designation:'Assistant Professor',
+                affiliation: { line1: 'School of Electronics, IIIT Una', line2: '' },
+                photo: profile
             },
+            {
+                name: 'Dr. Shefali',
+                designation:'Assistant Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Nitish Katal',
+                designation:'Assistant Professor',
+                affiliation: { line1: 'SENSE, VIT Chennai', line2: '' },
+                photo: profile
+            },
+            // {
+            //     name: 'Dr. Amandeep Kaur',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: amandeep
+            // },
+            // {
+            //     name: 'Dr. Divya Punia',
+            //     designation: 'Postdoctoral Researcher',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: divya
+            // },
         ]
     }
 ]
 export const publicityCommittee = [
     {
-        // type: 'COORDINATORS',
+        type: 'CHAIR',
         members : [
             {
-                name: 'Dr. Shelly Sachdeva',
-                designation: 'Associate Professor',
+                name: 'Dr. Gunjan',
+                designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: shelly
-            },
+                photo: gunjan
+            }
+        ]
+    },
+    {
+        type: 'CO-CHAIR(S)',
+        members : [
+            // {
+            //     name: 'Dr. Shelly Sachdeva',
+            //     designation: 'Associate Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: shelly
+            // },
             {
                 name: 'Dr. Arshpreet Kaur',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Alliance University', line2: '' },
                 photo: Arshpreet
             },
-            {
-                name: 'Dr. Sahil',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: sahil
-            },
-            {
-                name: 'Dr. Japinder Kaur',
-                designation: 'Postdoctoral Fellow',
-                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
-                photo: jaspinder
-            },
-        ]
-    }
-]
-
-export const hospitalityCommittee = [
-    {
-        // type: 'COORDINATORS',
-        members : [ 
+            // {
+            //     name: 'Dr. Sahil',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: sahil
+            // },
+            // {
+            //     name: 'Dr. Japinder Kaur',
+            //     designation: 'Postdoctoral Fellow',
+            //     affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+            //     photo: jaspinder
+            // },
             {
                 name: 'Dr. Gautam Kumar',
                 designation: 'Assistant Professor',
@@ -1789,17 +1834,36 @@ export const hospitalityCommittee = [
                 photo: gautam
             },
             {
-                name: 'Dr. Sachin Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
-                photo: sachin
+                name: 'Prof. Kirandeep Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'Chitkara University Rajpura', line2: '' },
+                photo: profile
             },
             {
-                name: 'Dr. Amit Kumar Singh',
+                name: 'Dr. Naman Garg',
                 designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
-                photo: amit
+                affiliation: { line1: 'School of Electronics, IIIT Una', line2: '' },
+                photo: profile
             },
+        ]
+    }
+]
+
+export const hospitalityCommittee = [
+    {
+        type: 'CHAIR',
+        members : [
+            {
+                name: 'Dr. Gautam Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: gautam
+            }
+        ]
+    },
+    {
+        type: 'CO-CHAIR(S)',
+        members : [ 
             {
                 name: 'Dr. Gunjan',
                 designation: 'Assistant Professor',
@@ -1809,16 +1873,87 @@ export const hospitalityCommittee = [
             {
                 name: 'Dr. Divya Punia',
                 designation: 'Postdoctoral Researcher',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
                 photo: divya
             },
+            {
+                name: 'Dr. Arjun Singh Rawat',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Urvashi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: urvashi
+            },
+            // {
+            //     name: 'Dr. Amit Kumar Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
+            //     photo: amit
+            // },
+            // {
+            //     name: 'Dr. Gunjan',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: gunjan
+            // },
+            // {
+            //     name: 'Dr. Divya Punia',
+            //     designation: 'Postdoctoral Researcher',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: divya
+            // },
         ]
     }
 ]
-export const transportationCommittee = [
+export const webDevelopmentContentCreationCommittee = [
     {
-        // type: 'COORDINATORS',
+        type: 'CHAIR',
         members : [
+            {
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: sahil
+            }
+        ]
+    },
+    {
+        type: 'CO-CHAIR(S)',
+        members : [
+            {
+                name: 'Dr. Amandeep Kaur',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: amandeep
+            },
+            {
+                name: 'Dr. Arjun Singh Rawat',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Preeti Mehta',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Aruna Malik',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
+                photo: aruna_malik
+            },
+            {
+                name: 'Dr. Ashish Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'SoCSE, Bennet University Greater Noida', line2: '' },
+                photo: profile
+            }
             // {
             //     name: 'Prof. Rishav Singh',
             //     designation: 'Assistant Professor',
@@ -1840,4 +1975,29 @@ export const transportationCommittee = [
         ]
     }
 ]
+// export const transportationCommittee = [
+//     {
+//         // type: 'COORDINATORS',
+//         members : [
+//             // {
+//             //     name: 'Prof. Rishav Singh',
+//             //     designation: 'Assistant Professor',
+//             //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+//             //     photo: rishav
+//             // },
+//             // {
+//             //     name: 'Dr Amit Kumar Singh',
+//             //     designation: 'Assistant Professor',
+//             //     affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
+//             //     photo: amit
+//             // },
+//             // {
+//             //     name: 'Dr. Indu Joshi',
+//             //     designation: 'Assistant Professor',
+//             //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+//             //     photo: indu
+//             // },
+//         ]
+//     }
+// ]
 
