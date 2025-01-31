@@ -55,7 +55,7 @@ export default function HeroSection() {
                   26<sup>th</sup> - 28<sup>th</sup> December, 2025
                 </p>
                 <p className="text-center text-base text-black md:text-lg">
-                  (Hybrid Mode)
+                  (Physical Mode Only)
                 </p>
                 {/* <p className="text-2xl text-center md:text-3xl">
                     Coming Soon

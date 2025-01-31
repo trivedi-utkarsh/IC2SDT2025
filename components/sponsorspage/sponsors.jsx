@@ -12,7 +12,11 @@ import drdo from '@/public/sponsors/drdo.png'
 export default function SponsorsSection() {
     return (
         <>
-        <h1 className=" bg-primary10 py-3 text-center hed underline">Supporter</h1>
+        <div className="text-3xl container flex sm:px-6 py-4 h-screen">
+        <div className="flex items-center justify-center w-full">
+        Coming Soon... </div>
+      </div>
+        {/* <h1 className=" bg-primary10 py-3 text-center hed underline">Supporter</h1>
         <section id="railway" className=" bg-primary10 px-3 py-12 spon">
         <div class="card-s">
             <div className="s-logo">
@@ -54,11 +58,11 @@ export default function SponsorsSection() {
                 <span className="font-bold">Takyon</span>  
             </div>
         </div>
-         */}
+         }
           </section>
 
-        {/* <section id="railway" className=" bg-primary10 px-3 py-12 spon">Under Construction</section> */}
-        <br></br>
+        {/* <section id="railway" className=" bg-primary10 px-3 py-12 spon">Under Construction</section> }
+        <br></br> */}
         </>
     )
 }

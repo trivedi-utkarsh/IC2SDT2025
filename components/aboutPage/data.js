@@ -9,7 +9,7 @@ export const aboutColleges = {
         text1: `National Institute of Technology Delhi (NITD) is one of the thirty one NITs established 
         in the year 2010 by an act of the parliament and has been declared as an Institute of National 
         importance. NIT Delhi is an autonomous Institute, which functions under the aegis of the 
-        Ministry of Education, Government of India. NIT Delhi is ranked 51 by NIRF 2023 in Engineering 
+        Ministry of Education, Government of India. NIT Delhi is ranked 45 by NIRF 2023 in Engineering 
         category. It aims to provide education and research facilities in various disciplines of Engineering, 
         Science and Technology, Management, Social Sciences, and Humanities for advanced learning and 
         dissemination of knowledge. The mission of NIT Delhi is to develop a highly intelligent and 

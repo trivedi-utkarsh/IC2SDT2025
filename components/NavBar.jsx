@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import logo from "@/public/logonew.png";
 import nitdLogo from "@/public/nitdel-logo.jpg"  
 import ieee from "@/public/ieee_logo.png"
 import Link from "next/link";
@@ -101,10 +102,10 @@ function ConferenceHeader({open, setOpen}) {
                         {/* <a href="https://nitdelhi.ac.in/" target="_blank"><Image src={nitdLogo} className="object-contain" alt="NITD" height={84}
                                quality={100}/></a> */}
                             
-                        <span className="sm:text-base md:text-2xl lg:text-3xl font-bold">IC<sup>2</sup>SDT 2025</span>
+                        {/* <span className="sm:text-base md:text-2xl lg:text-3xl font-bold">IC<sup>2</sup>SDT 2025</span> */}
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
-                           width={200} quality={100}/> */}
+                    <Image src={logo} className="object-contain" alt="ICSCCAT-2024"
+                           width={200} quality={100}/>
                 </Link>
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
