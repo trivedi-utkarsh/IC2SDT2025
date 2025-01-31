@@ -31,7 +31,7 @@ export default function HeroSection() {
               /> */}
               <div className="flex flex-col mx-auto md:mx-0">
                 <p className="font-bold text-4xl text-center md:text-5xl">
-                  1<sup>st</sup> 
+                  2<sup>nd</sup> 
                 </p>
                 <p className=" text-4xl text-center md:text-5xl font-bold">
                 <span className="text-blue-800">I</span>nternational  
