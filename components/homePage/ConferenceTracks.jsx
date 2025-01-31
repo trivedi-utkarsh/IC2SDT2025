@@ -34,7 +34,7 @@ export default function CombinedTracks() {
       link: "#aiml",
     },
     {
-      name: "Digital Innovation in Healthcare and its Application",
+      name: "DIGITAL INNOVATION IN HEALTHCARE AND ITS APPLICATION",
       imageUrl: healthcare,
       link: "#healthcare",
     },
@@ -49,35 +49,35 @@ export default function CombinedTracks() {
   const handleCardLeave = () => {
     setHoveredCard(null);
   };
+  
 
-  const cardColors = ["#FD6824", "#57C12C", "#26BDE3", "#DD1267", "#FCC309"];
+  // const cardColors = ["#FD6824", "#57C12C", "#26BDE3", "#DD1267", "#FCC309"];
 
   return (
     <div>
       <section id="themes" className="py-6">
-        <div className="container flex flex-col mx-auto px-6 py-4">
+        <div className="container flex flex-col mx-auto py-4 items-center justify-center">
               <h4 className="max-w-md text-4xl font-bold text-center mx-auto md:text-4xl md:text-left mb-6">
-                  Tracks
+                  TRACKS
               </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 justify-center">
             {themes.map(function (theme, index) {
               return (
                 <Link key={index} href={theme.link} passHref>
                   <div
-                    className={`card ${hoveredCard === index ? "hovered" : ""}`}
-                    style={{ backgroundColor: cardColors[index] }}
+                    className={`card grid-container ${hoveredCard === index ? "hovered" : ""}`}
                     onMouseEnter={() => handleCardHover(index)}
                     onMouseLeave={handleCardLeave}
                   >
-                    <div className="card-inner">
-                      <div className="front">
-                        <div className="front-content">
+                    <div className="card-inner bg-gradient-to-b from-[#c8bfe8] to-[#dce6fa] p-6 rounded-lg shadow-lg flex flex-col items-center justify-center text-center h-full">
+                      <div className="front flex flex-col items-center justify-center w-full h-full">
+                        <div className="front-content flex flex-col items-center justify-center w-full m-6">
                           <img
                             src={theme.imageUrl.src}
                             alt={theme.name}
-                            className="w-full h-auto rounded-md"
+                            className="w-36 sm:w-40 ring-4 sm:ring-6 ring-blue-900 ring-offset-white bg-white ring-offset-2 sm:ring-offset-4 rounded-full aspect-square object-cover"
                           />
-                          <p className="text-black font-semibold">{theme.name}</p>
+                          <p className="font-bold py-3 text-xl sm:text-xl text-blue-900 m-8">{theme.name}</p>
                         </div>
                       </div>
                     </div>

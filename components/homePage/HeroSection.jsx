@@ -52,7 +52,7 @@ export default function HeroSection() {
                   </p>
                 </h1>
                 <p className="font-bold text-center text-lg text-black md:text-2xl mt-4 mb-2">
-                  02<sup>th</sup> - 04<sup>th</sup> August, 2024
+                  26<sup>th</sup> - 28<sup>th</sup> December, 2025
                 </p>
                 <p className="text-center text-base text-black md:text-lg">
                   (Hybrid Mode)
