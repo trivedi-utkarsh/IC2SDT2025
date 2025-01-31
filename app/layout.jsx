@@ -1,7 +1,7 @@
 import './globals.css'
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import { Lora } from '@next/font/google';
+import { Lora } from 'next/font/google';
 
 const lora = Lora({
     subsets: ['latin'],
