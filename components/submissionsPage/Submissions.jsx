@@ -1,13 +1,15 @@
-import { rules } from "./data";
 import { dates } from "./data";
 
-import Fees from "./Fees";
 //import ImportantDates from "./importantDates";
 
 export default function Submissions() {
   return (
     <>
-      <div>
+      <div className="text-3xl container flex sm:px-6 py-4 h-screen">
+        <div className="flex items-center justify-center w-full">
+        Coming Soon... </div>
+      </div>
+      {/* <div>
         <ImportantDates />
         <div className="container mx-auto px-12 sm:px-6 py-4">
         <h2 className="text-4xl font-bold my-8 text-center sm:text-left text-red-600">Camera-Ready Submission Instructions</h2>
@@ -35,12 +37,12 @@ export default function Submissions() {
               {/* <li className="list-disc leading-6 sm:leading-8">
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
-              </li> */}
+              </li> }
             </ul>
           </section>
           <br />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
